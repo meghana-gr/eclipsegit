@@ -21,7 +21,7 @@ public class Mainclass {
 		
 		System.out.println("enter branch name");
 		String branch=scan.nextLine();
-	
+	scan.close();
 		
 		Map<String,Long>candidates=StudentImplementation.CountOfBranchStudent(branch,list);
 		System.out.println("count of students in a branch");
